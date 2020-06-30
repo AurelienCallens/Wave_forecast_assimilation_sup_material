@@ -820,7 +820,12 @@ Metrics computed on data where Hs > 3 meters:
 ## Cor    0.859  0.832 0.570
 ```
 
-It is worth noting that the succes of the assimilation method depends on the quantity of data used. The more data we have, the more efficient the assimilation will be. More details can be found in the article. 
+Here again we improve the quality of the wave forecast. When looking at the metrics computed with all data, the mean bias is removed and the RMSE values of Hs are reduced by around 20% for neural networks and gradient boosting trees and by 25% for random forest. After the correction, the scatter indexes are lower and the correlation coefficients are larger indicating that the improved values are closer to the values observed at the buoy. 
+When we look at the data where Hs > 3 meters, we see that the correction is more significant. This time the mean bias is not removed but is greatly reduced. The RMSE values of Hs are reduced by 28.8% for gradient boosting trees and neural networks and 33% for random forest. 
+Same observations can be drawn for the other wave parameters. 
+
+
+Tuning the hyperparameters yielded results only a few percents better. It is worth noting that the success of the assimilation method and bayesian optimization depends on the quantity of data used. The more data we have, the more efficient the assimilation will be. More details can be found in the article. 
 
 
 
