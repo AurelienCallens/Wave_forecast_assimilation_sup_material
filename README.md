@@ -8,7 +8,7 @@
 
 ### Introduction
 
-This suplementary material demonstrates how to use the data assimilation presented in the article: “Using Random forest and Gradient boosting trees to improve wave forecast at a specific location”. Unlike the article, the data assimilation presented in this post is performed on forecast wave data used in operational applications.
+This supplementary material demonstrates how to use the data assimilation presented in the article: “Using Random forest and Gradient boosting trees to improve wave forecast at a specific location”. Unlike the article, the data assimilation presented in this post is performed on forecast wave data used in operational applications.
 
 The data assimilation consists in three steps :
 
@@ -20,9 +20,9 @@ The data assimilation consists in three steps :
 
 Available data:
 
-* The wave forecast data for our study site. This dataset called “wave_forecast_ibi” is available on Copernicus website (Link here. It regroups the predictions of the wave model for the three parameters of interests: the significant wave height (Hs), the peak period (Tp) of the wave and the peak direction (θp). This dataset regroups hourly predictions during 3 years (2017-2020).
+* The wave forecast data for our study site. This dataset called “wave_forecast_ibi” is available on Copernicus website (Link [here](https://resources.marine.copernicus.eu/?option=com_csw&task=results?option=com_csw&view=details&product_id=IBI_ANALYSIS_FORECAST_WAV_005_005)). It regroups the predictions of the wave model for the three parameters of interests: the significant wave height (Hs), the peak period (Tp) of the wave and the peak direction (θp). This dataset regroups hourly predictions during 3 years (2017-2020).
 
-* The observed data that will be used to compute the deviations of the model that we want to predict with machine learning. The hourly observed data for the same period as the forecast are available for our study site. They can obtain free of charge by contacting the Centre for Studies and Expertise on Risks, Environment, Mobility, and Urban and Country Planning (CEREMA).
+* The observed data that will be used to compute the deviations of the model that we want to predict with machine learning. The hourly observed data for the same period as the forecast are available for our study site. They can obtain free of charge by contacting the Centre for Studies and Expertise on Risks, Environment, Mobility, and Urban and Country Planning ([CEREMA](http://candhis.cetmef.developpement-durable.gouv.fr/campagne/?idcampagne=f7177163c833dff4b38fc8d2872f1ec6)).
 
 In the article we also used data about meteorological conditions. However, due to the privacy of the data provided by MeteoFrance we can’t make them available on github.
 
