@@ -825,7 +825,7 @@ When we look at the data where Hs > 3 meters, we see that the correction is more
 Same observations can be drawn for the other wave parameters. 
 
 
-Tuning the hyperparameters yielded results only a few percents better. It is worth noting that the success of the assimilation method and bayesian optimization depends on the quantity of data used. The more data we have, the more efficient the assimilation will be. More details can be found in the article. 
+Tuning the hyperparameters yielded results a few percents better. This step can make a significant difference in efficiency when dealing with larger dataset (see the article). It is also worth noting that the success of the assimilation method depends on the quantity of data used. The more data we have, the more efficient the assimilation will be. 
 
 
 
